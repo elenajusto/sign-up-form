@@ -1,8 +1,28 @@
 body {
     display: flex;
+    justify-content: center;
 }
 
 #right-page {
     display: flex;
     flex-direction: column;
+
+    margin: 0px;
+    padding: 0px;
+    background-color: #92A239;
+}
+
+#right-page-middle {
+    background-color: #D1D899;
+}
+
+
+#left-page {
+    /* Setting the background image */
+    background-image: url("images/shubham-dhage-05rC4c5-oWw-unsplash.jpg");
+    
+    /* Some other useful background properties */
+    background-repeat: no-repeat;        /* Ensures the image doesn't repeat */
+    background-size: cover;              /* Makes the image cover the entire section */
+    background-position: center center;  /* Centers the image */
 }
