@@ -41,6 +41,12 @@ html, body {
 
 #right-page-middle {
     background-color: #D1D899;
+
+    padding: 50px;
+}
+
+#right-page-bottom {
+    padding: 50px;
 }
 
 #left-page {
