@@ -14,13 +14,13 @@ body {
 html, body {
     height: 100%;
     width: 100%;
-    overflow: hidden; /* To prevent unintended scrollbars */
+    overflow: hidden;     /* To prevent unintended scrollbars */
 }
 
 #left-page, #right-page {
-    height: 100%;  /* Full screen height */
-    width: 50%;  /* Half screen width */
-    float: left;  /* This makes them sit side by side */
+    height: 100%;         /* Full screen height */
+    width: 50%;           /* Half screen width */
+    float: left;          /* This makes them sit side by side */
 }
 
 #right-page {
@@ -30,6 +30,13 @@ html, body {
     margin: 0px;
     padding: 0px;
     background-color: #92A239;
+}
+
+#right-page-top {
+    display: flex;
+    flex-direction: column;
+
+    padding: 50px;
 }
 
 #right-page-middle {
