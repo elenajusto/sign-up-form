@@ -65,3 +65,7 @@ html, body {
 
     flex-direction: row;
 }
+
+ul {
+    list-style-type: none;
+}
