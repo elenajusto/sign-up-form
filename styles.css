@@ -66,6 +66,16 @@ html, body {
     flex-direction: row;
 }
 
+#sign-up-form label {
+    display: block;
+    margin-bottom: 5px; /* Optional: for some spacing between the label and input */
+}
+
+
 ul {
     list-style-type: none;
+}
+
+#form-right {
+
 }
