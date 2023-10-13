@@ -4,6 +4,7 @@
     box-sizing: border-box;  /* This ensures padding and border are included in the total width and height of an element */
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
 }
 
 body {
@@ -46,7 +47,7 @@ html, body {
 }
 
 #right-page-bottom {
-    padding: 50px;
+    padding: 50px;  
 }
 
 #left-page {
