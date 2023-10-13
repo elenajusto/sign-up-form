@@ -26,9 +26,10 @@
         <section id="right-page-middle">
             <h1>Let's do this!</h1>
 
-            <form action="/my-handling-form-page" method="post">
-                <ul>
+            <form action="/my-handling-form-page" method="post" id="sign-up-form">
+
                   <div id="form-left">
+                    <ul>
                     <li>
                       <label for="first-name">First Name:</label>
                       <input type="text" id="name" name="first_name" />
@@ -41,8 +42,11 @@
                       <label for="password">Password:</label>
                       <input type="password" id="password" name="user_password" required />
                     </li>
+                    </ul>
                   </div>
+                
                   <div id="form-right">
+                    <ul>
                     <li>
                       <label for="last-name">Last Name:</label>
                       <input type="text" id="name" name="last_name" />
@@ -55,8 +59,9 @@
                       <label for="confirm-password">Confirm Password:</label>
                       <input type="password" id="confirm-password" name="confirm_password" required />
                     </li> 
+                    </ul>
                   </div>
-                </ul>
+
               </form>
 
         </section>
