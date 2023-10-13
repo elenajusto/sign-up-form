@@ -89,3 +89,12 @@ li {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+#right-p1, #right-p2, #right-p3, em {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#right-p3 {
+    margin-top: 30px;
+}
